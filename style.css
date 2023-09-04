@@ -1,0 +1,408 @@
+/* Estilo para el encabezado */
+header {
+    width: 1416.68px; /* Ancho ajustado */
+    height: 174px; /* Alto ajustado */
+    padding: 65px 165px; /* Padding ajustado (65px arriba y abajo, 165px izquierda y derecha) */
+    gap: 224px; /* Espaciado entre elementos del encabezado */
+    
+    text-align: center; /* Centra el contenido horizontalmente */
+    padding: 20px;
+    display: flex; /* Para alinear elementos horizontalmente */
+    justify-content: space-between; /* Espacio entre elementos */
+}
+
+/* Estilo para el logo */
+.logo {
+    float: left; /* Hace que el logo esté a la izquierda */
+    margin-right: 20px; /* Espacio entre el logo y la lista de navegación */
+}
+
+/* Estilo para el encabezado horizontal */
+.encabezado-horizontal {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Estilo para el encabezado horizontal */
+.encabezado_horizontal{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Hace que los elementos se muestren en línea horizontalmente */
+}
+
+.encabezado_horizontal li {
+    margin-right: 28px; /* Espacio entre las palabras */
+    font-size: 20px; /* Tamaño de fuente opcional */
+}
+
+/* Estilo para el botón de contacto */
+.boton-contacto {
+    background-color: #8B48BF; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    border: none; /* Sin borde */
+    border-radius: 25px; /* Borde redondeado */
+    text-decoration: none; /* Sin subrayado en el texto del botón */
+    width: 134px;
+    height: 25px;
+    gap: 10px;
+}
+
+.boton-contacto:hover {
+    background-color: #0056b3; /* Color de fondo del botón al pasar el cursor */
+}
+
+
+
+
+
+/*BODY*/
+
+/* Estilo general para el cuerpo de la página */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+
+/*SECCIONES DE LA PAGINA WEB*/
+
+/* Contenedor principal */
+.contenedor-principal {
+    width: 1090px;
+    height: 461.07px;
+    gap: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px; /* Espacio entre el header y el primer contenedor */
+}
+
+/* Imagen */
+.contenido-izquierdo {
+    flex: 1; /* Para que ocupe todo el espacio disponible en el contenedor */
+}
+
+.imagen {
+    width: 540px;
+    height: 461.06951904296875px;
+}
+
+/* Texto */
+.contenido-derecho {
+    flex: 1; /* Para que ocupe todo el espacio disponible en el contenedor */
+    text-align: right;
+}
+
+.contenido-derecho h1 {
+    font-family: 'Be Vietnam';
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: -0.035em;
+}
+
+.contenido-derecho p {
+    font-family: 'Be Vietnam';
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: right;
+}
+
+/* Botón de contacto */
+.boton {
+    background-color: #8B48BF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Contenedor secundario */
+.contenedor-secundario {
+    width: 1440px;
+    height: 168px;
+    top: 817px;
+    padding: 40px 0;
+    gap: 100px;
+    background-color: #8B48BF;
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 20px; /* Espacio entre el primer y segundo contenedor */
+}
+
+/* Título Izquierdo */
+.izquierda h2 {
+    font-family: 'Be Vietnam';
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+/* Párrafo Derecho */
+.derecha p {
+    font-family: 'Be Vietnam';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+
+/*     */
+
+/* Tercer contenedor */
+.tercer-contenedor {
+    width: 1440px;
+    height: auto; /* El alto se ajustará automáticamente según su contenido */
+    top: 985px;
+    left: -1px;
+    padding: 40px 0;
+    gap: 24px;
+    background-color: #FAFAFA;
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en varias filas si es necesario */
+    justify-content: center; /* Centrar horizontalmente los elementos en la línea */
+    align-content: space-between; /* Espacio entre las filas */
+}
+
+/* Frames */
+.frame {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: calc(33.33% - 12px); /* Calcula el ancho para que haya espacio entre los elementos */
+    margin-bottom: 12px; /* Espacio entre los elementos en la misma columna */
+}
+
+/* Botón del frame */
+.frame-boton {
+    width: 69px;
+    height: 43px;
+    padding: 10px 25px;
+    border-radius: 30px;
+    background-color: #8B48BF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Caja del frame */
+.frame-caja {
+    text-align: center;
+}
+
+.frame-caja h3 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.frame-caja p {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+/* Estilo para el contenedor del título "Best of the month" */
+.contenedor-titulo-best-month {
+    width: 424px;
+    height: 61px;
+    position: absolute;
+    top: 1510px;
+    left: 553px;
+    text-align: center; /* Centro horizontalmente el contenido */
+
+    left: 50%; /* Centra horizontalmente el contenedor en la mitad de la pantalla */
+    transform: translateX(-50%); /* Corrige el centrado horizontal */
+}
+
+/* Estilo para el título "Best of the month" */
+.titulo-best-month {
+    font-family: 'Be Vietnam';
+    font-size: 39px;
+    font-weight: 700;
+    line-height: 61px;
+    letter-spacing: -0.01em;
+}
+
+
+/*ESTILO PARA CAJAS DESPUÉS DEL TITULO*/
+
+/* Estilo para el contenedor de las tres cajas */
+.contenedor-cajas {
+    width: 1416.68px; /* Ancho igual al ancho del título */
+    height: auto; /* Altura automática según el contenido */
+    position: absolute;
+    top: 1645px; /* Posición debajo del título "Best of the month" */
+    left: 50%; /* Centra horizontalmente el contenedor en la mitad de la pantalla */
+    transform: translateX(-50%); /* Corrige el centrado horizontal */
+
+    display: flex;
+    justify-content: space-between; /* Espacio entre las cajas */
+}
+
+/* Estilo para cada caja */
+.caja {
+    width: 445px;
+    height: 259.48px;
+    display: grid; /* Utiliza Grid para organizar el contenido */
+    grid-template-columns: auto; /* Columna automática para la imagen y el texto */
+    grid-template-rows: auto auto; /* Filas automáticas para la imagen y el texto */
+    align-items: center; /* Centra verticalmente el contenido */
+    gap: 10px; /* Espacio entre la imagen y el texto */
+    /*align-items: center; /* Centra horizontalmente el contenido */
+    padding: 20px; /* Espacio interior para separar el contenido del borde */
+
+}
+
+/* Estilo para el contenido de cada caja */
+/*.contenido-caja {
+    padding: 20px; /* Espacio interior para separar el contenido del borde */
+/*    display: flex;
+    flex-direction: column;
+    align-items: center;
+}*/
+
+
+/* Estilo para la imagen circular */
+.imagen-circular {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%; /* Hace la imagen circular */
+        display: block; /* Asegura que la imagen se muestre como bloque */
+    margin: 0 auto; /* Centra horizontalmente la imagen */
+
+    /*float: left; /* Hace que la mitad de la imagen esté dentro del rectángulo */
+}
+
+/* Estilo para el texto de la caja */
+.texto-caja {
+    text-align: center;
+}
+
+/* Estilo para el título de la caja */
+.titulo-caja {
+/*    width: 47px;
+    height: 25px;*/
+    font-family: 'Be Vietnam';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: -0.01em;
+/*    text-align: left;*/
+    color: #3F4868;
+}
+
+/* Estilo para el párrafo de la caja */
+.parrafo-caja {
+/*    width: 403px;
+    height: 100px;*/
+    font-family: 'Be Vietnam';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0em;
+/*    text-align: center;*/
+    color: #B9B9C1;
+}
+
+/* Estilo para el botón "more" */
+.boton-more {
+    width: 134px;
+    height: 44px;
+    top: 1944px;
+    left: 50%; /* Centra horizontalmente el botón */
+    transform: translateX(-50%); /* Corrige la posición horizontal */
+    padding: 10px;
+    border-radius: 50px;
+    gap: 10px;
+    background: #8B48BFB2;
+    color: #FFFFFF; /* Color del texto */
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    border: none; /* Elimina el borde del botón */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    position: absolute; /* Posicionamiento absoluto para ubicar el botón */
+}
+
+
+
+
+/*SIGUIENTE SECCION ANTES DEL FOOTER*/
+
+/* Estilo para el contenedor principal */
+.contenedor-principal_1 {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto; /* Centra horizontalmente el contenedor */ 
+    position: relative;
+    top: 950px;
+    left: -1px;
+    background-color: #8B48BF;
+}
+
+/* Estilo para el contenedor con medidas específicas */
+.contenedor_1 {
+    width: 100%;
+    height: 224px;
+    display: flex;
+    align-items: center; /* Centra verticalmente el contenido */
+    justify-content: space-between; /* Espacio entre el frame y el botón */
+    padding: 0 20px; /* Espacio interior para separar el contenido del borde */
+}
+
+/* Estilo para el frame con texto */
+.frame_1 {
+    flex: 1; /* Ocupa todo el espacio disponible */
+}
+
+.texto_1 {
+    width: 393px;
+    height: 96px;
+    font-family: 'Be Vietnam';
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.005em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+/* Estilo para el botón "Go for it" */
+.boton_go {
+    width: 134px;
+    height: 44px;
+    padding: 10px;
+    border-radius: 50px;
+    background: #FFFFFF;
+    color: #8B48BF; /* Color del texto */
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 4px 8px 0px #00000040;
+
+
+    position: absolute; /* Añade posicionamiento absoluto al botón */
+    right: 20px; /* Alinea el botón a la derecha dentro del contenedor */
+    top: 50%; /* Centra verticalmente el botón */
+    transform: translateY(-50%); /* Ajusta la posición vertical */
+}

@@ -2,23 +2,154 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <img class="logo" src="img/logo.svg" elt="">
-        </header>
 
-        </main>
-        <footer></footer>
-        <script>
-            window.addEventListener('load', () => {
-                let today = new Date();
-                document.querySelector('footer').innerText = `Digitel House, ${ today.getFullYear() }.`
-            })
-        </script>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="recursos/logo.svg" alt="logo de la pagina">
+            </div>
+        </nav>
+
+        <ul class="encabezado_horizontal">
+            <li>Sports</li>
+            <li>Products</li>
+            <li>About us</li>
+            <li>Training</li>
+            <li>Community</li>
+        </ul>
+        <a href="/contacto" class="boton-contacto">Contact></a>
+    </header>
+
+
+    <!-- Primer contenedor -->
+    <div class="contenedor-principal">
+        <!-- Imagen -->
+        <div class="contenido-izquierdo">
+            <img src="recursos/padel-intro.png" alt="Imagen" class="imagen">
+        </div>
+        <!-- Texto -->
+        <div class="contenido-derecho">
+            <h1>LIVE: Follow the Telcel Huawei Mexico Open 2022 for free</h1>
+            <p>The final Open of the 2022 World Padel Tour season is underway, don't miss out on any of the action!</p>
+            <button class="boton">Contact</button>
+        </div>
     </div>
+
+    <!-- Segundo contenedor -->
+    <div class="contenedor-secundario">
+        <!-- Izquierda -->
+        <div class="izquierda">
+            <h2>What's different between pros?</h2>
+        </div>
+        <!-- Derecha -->
+        <div class="derecha">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas aliquet consequat purus sit amet sodales. In faucibus ut nisi eu dignissim. Vestibulum fringilla velit sed tincidunt tincidunt.</p>
+        </div>
+    </div>
+
+
+
+
+    <!-- Tercer contenedor -->
+<div class="tercer-contenedor">
+    <!-- Primer frame -->
+    <div class="frame">
+        <button class="frame-boton">1</button>
+        <div class="frame-caja">
+            <h3>Track company-wide progress</h3>
+            <p>Donec elit est, mattis lacinia arcu eu, efficitur consequat augue. Nam tellus sem, tempus pellentesque egestas vitae, efficitur vel nulla. Etiam vel orci rutrum, placerat quam eget, consequat dolor.</p>
+        </div>
+    </div>
+    <!-- Segundo frame -->
+    <div class="frame">
+        <button class="frame-boton">2</button>
+        <div class="frame-caja">
+            <h3>Advance built-in reports</h3>
+            <p>Donec elit est, mattis lacinia arcu eu, efficitur consequat augue. Nam tellus sem, tempus pellentesque egestas vitae, efficitur vel nulla. Etiam vel orci rutrum, placerat quam eget, consequat dolor.</p>
+        </div>
+    </div>
+    <!-- Tercer frame -->
+    <div class="frame">
+        <button class="frame-boton">3</button>
+        <div class="frame-caja">
+            <h3>Everything you need in one place</h3>
+            <p>Donec elit est, mattis lacinia arcu eu, efficitur consequat augue. Nam tellus sem, tempus pellentesque egestas vitae, efficitur vel nulla. Etiam vel orci rutrum, placerat quam eget, consequat dolor.</p>
+        </div>
+    </div>
+</div>
+
+<!-- Contenedor para el título "Best of the month" -->
+<div class="contenedor-titulo-best-month">
+    <!-- Título "Best of the month" -->
+    <h2 class="titulo-best-month">Best of the month</h2>
+</div>
+
+<!-- Cajas después del Titulo -->
+<!-- Contenedor de las tres cajas -->
+<div class="contenedor-cajas">
+    <!-- Primera caja -->
+    <div class="caja">
+        <div class="contenido-caja">
+            <img src="recursos/avatar-sanyo.png" alt="Imagen" class="imagen-circular">
+            <div class="texto-caja">
+                <h3 class="titulo-caja">Sanyo</h3>
+                <p class="parrafo-caja">Etiam fermentum, nulla eget gravida cursus, purus lectus feugiat mauris, ut suscipit massa ipsum eu neque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Segunda caja -->
+    <div class="caja">
+        <div class="contenido-caja">
+            <img src="recursos/avatar.lebron.png" alt="Imagen" class="imagen-circular">
+            <div class="texto-caja">
+                <h3 class="titulo-caja">Lebron</h3>
+                <p class="parrafo-caja">Etiam fermentum, nulla eget gravida cursus, purus lectus feugiat mauris, ut suscipit massa ipsum eu neque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <!-- Tercera caja -->
+    <div class="caja">
+        <div class="contenido-caja">
+            <img src="recursos/avatar-navarro.png" alt="Imagen" class="imagen-circular">
+            <div class="texto-caja">
+                <h3 class="titulo-caja">Navarro</h3>
+                <p class="parrafo-caja">Etiam fermentum, nulla eget gravida cursus, purus lectus feugiat mauris, ut suscipit massa ipsum eu neque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- Botón "more" -->
+<button class="boton-more">More</button>
+
+<!-- Contenedor principal -->
+<div class="contenedor-principal_1">
+    <div class="contenedor_1">
+        <!-- Frame con texto -->
+        <div class="frame_1">
+            <h1 class="texto_1">Get to know the best teams of the year</h1>
+        </div>
+        
+        <!-- Botón "Go for it" -->
+        <button class="boton_go">Go for it</button>
+    </div>
+</div>
+
+
+
+
+
 </body>
 </html>
