@@ -556,16 +556,26 @@ body {
 }
 
 /* Título Izquierdo */
+.izquierda{
+    flex: 1; 
+    padding-right: 10px;
+}
 .izquierda h2 {
     font-family: 'Be Vietnam Pro', sans-serif;
     font-size: 36px;
     font-weight: 700;
     line-height: 41px;
     letter-spacing: 0em;
-    text-align: left;
+    text-align: right;
+    color: #FAFAFA;
 }
 
 /* Párrafo Derecho */
+.derecha{
+    flex: 1; 
+    padding-left: 10px;
+}
+
 .derecha p {
     font-family: 'Be Vietnam';
     font-size: 16px;
@@ -573,6 +583,7 @@ body {
     line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
+    color: #FAFAFA;
 }
 
 
@@ -587,10 +598,11 @@ body {
     padding: 40px 0;
     gap: 24px;
     background-color: #FAFAFA;
+
     display: flex;
-    flex-wrap: wrap; /* Permite que los elementos se envuelvan en varias filas si es necesario */
-    justify-content: center; /* Centrar horizontalmente los elementos en la línea */
-    align-content: space-between; /* Espacio entre las filas */
+    flex-direction: column;
+    align-items: center;
+   
 }
 
 /* Frames */
