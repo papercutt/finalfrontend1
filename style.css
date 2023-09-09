@@ -264,43 +264,50 @@ body {
 /*ESTILO PARA CAJAS DESPUÉS DEL TITULO*/
 /* Estilo para el contenedor de las tres cajas */
 .contenedor-cajas {
-    width: 1416.68px; /* Ancho igual al ancho del título */
-    height: auto; /* Altura automática según el contenido */
-    /*
-    position: absolute;
-    top: 1645px; 
-    left: 50%; /* Centra horizontalmente el contenedor en la mitad de la pantalla */
-    
-    transform: translateX(-50%); /* Corrige el centrado horizontal */
+    margin-top: 72px;
+    background: #FAFAFA;
+    width: 445px;
+    height: 219px;
     display: flex;
-    justify-content: space-between; /* Espacio entre las cajas */
+    flex-direction: column; /* Apila las cajas verticalmente */
+    margin-left: 18px;
+    margin-right: 17px;
 }
 /* Estilo para cada caja */
+
+.caja1 {
+    z-index: 3;
+}
+
+.caja2 {
+    z-index: 2;
+}
+
+.caja3 {
+    z-index: 1;
+}
+
+
 .caja {
     width: 445px;
     height: 259.48px;
     display: grid; /* Utiliza Grid para organizar el contenido */
-    grid-template-columns: auto; /* Columna automática para la imagen y el texto */
-    grid-template-rows: auto auto; /* Filas automáticas para la imagen y el texto */
     align-items: center; /* Centra verticalmente el contenido */
-    gap: 10px; /* Espacio entre la imagen y el texto */
     /*align-items: center; /* Centra horizontalmente el contenido */
-    padding: 20px; /* Espacio interior para separar el contenido del borde */
+    padding-left: 27px;
+    padding-right: 28px;
+    padding-bottom: 39px;
 }
-/* Estilo para el contenido de cada caja */
-/*.contenido-caja {
-    padding: 20px; /* Espacio interior para separar el contenido del borde */
-/*    display: flex;
-    flex-direction: column;
-    align-items: center;
-}*/
-/* Estilo para la imagen circular */
+
 .imagen-circular {
+    position: relative;
+    bottom: 40px;
     width: 70px;
     height: 70px;
     border-radius: 50%; /* Hace la imagen circular */
-        display: block; /* Asegura que la imagen se muestre como bloque */
+    display: block; /* Asegura que la imagen se muestre como bloque */
     margin: 0 auto; /* Centra horizontalmente la imagen */
+
     /*float: left; /* Hace que la mitad de la imagen esté dentro del rectángulo */
 }
 /* Estilo para el texto de la caja */
@@ -309,14 +316,11 @@ body {
 }
 /* Estilo para el título de la caja */
 .titulo-caja {
-/*    width: 47px;
-    height: 25px;*/
     font-family: 'Be Vietnam Pro', sans-serif;
     font-size: 16px;
     font-weight: 700;
     line-height: 25px;
     letter-spacing: -0.01em;
-/*  text-align: left;*/
     color: #3F4868;
 }
 /* Estilo para el párrafo de la caja */
@@ -335,7 +339,7 @@ body {
 .boton-more {
     width: 134px;
     height: 44px;
-    top: 2700px;
+    top: 3250px;
     left: 50%; /* Centra horizontalmente el botón */
     transform: translateX(-50%); /* Corrige la posición horizontal */
     padding: 10px;
@@ -355,12 +359,12 @@ body {
 /*SIGUIENTE SECCION ANTES DEL FOOTER*/
 /* Estilo para el contenedor principal */
 .contenedor-principal_1 {
-    width: 100%;
-    max-width: 1440px;
     margin: 0 auto; /* Centra horizontalmente el contenedor */ 
-    position: relative;
     display: flex;
-    background-color: #8B48BF;
+    justify-content: center;
+    align-content: center;
+    margin-top: 700px;
+    background-color: #3CDDF3;
 }
 /* Estilo para el contenedor con medidas específicas */
 .contenedor_1 {
@@ -440,12 +444,11 @@ header {
     list-style: none;
     padding: 0;
     margin: 0;
-    display: inline-flex ; /* Hace que los elementos se muestren en línea horizontalmente */
+    display: ; /* Hace que los elementos se muestren en línea horizontalmente */
 }
 
 .encabezado_horizontal li {
     margin-right: 28px; /* Espacio entre las palabras */
-    font-family: 'Be Vietnam Pro', sans-serif;
     font-size: 20px; /* Tamaño de fuente opcional */
     font-family: 'Be Vietnam Pro', sans-serif;
 }
@@ -453,7 +456,6 @@ header {
 /* Estilo para el botón de contacto */
 .boton-contacto {
     background-color: #8B48BF; /* Color de fondo del botón */
-    font-family: 'Be Vietnam Pro', sans-serif;
     color: #fff; /* Color del texto del botón */
     padding: 10px 20px; /* Espaciado interno del botón */
     border: none; /* Sin borde */
@@ -565,7 +567,7 @@ body {
 
 /* Párrafo Derecho */
 .derecha p {
-    font-family: 'Be Vietnam Pro', sans-serif;
+    font-family: 'Be Vietnam';
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
@@ -617,7 +619,7 @@ body {
     text-align: center;
 }
 
-.frame-caja h3 {
+.c3-title {
     font-size: 16px;
     font-weight: 700;
     margin-top: 10px;
